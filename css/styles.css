@@ -272,6 +272,43 @@ p {
   .transparent-container {
     flex-basis: 100%;
   }
+  .link-border {
+    padding: 2px; 
+    /* background-color: white;  */
+    /* border-radius: 10px;  */
+  
+    /* margin-top: 1;  */
+  
+    background: linear-gradient(to left, rgb(255, 103, 103), orange, yellow, rgb(42, 255, 42), rgb(104, 104, 255), rgb(192, 103, 255), rgb(250, 49, 49), rgb(255, 103, 103), yellow);
+    background-size: 400% auto;
+    color: transparent;
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    animation: rainbow 3s linear infinite;
+  
+    cursor: grab;
+    transition: background-color 0.3s ease; 
+  }
+
+  #portfolio-link {
+    padding: 2px; 
+    /* background-color: white;  */
+    /* border-radius: 10px;  */
+  
+    /* margin-top: 1;  */
+  
+    background: linear-gradient(to left, rgb(255, 103, 103), orange, yellow, rgb(42, 255, 42), rgb(104, 104, 255), rgb(192, 103, 255), rgb(250, 49, 49), rgb(255, 103, 103), yellow);
+    background-size: 400% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s linear infinite;
+  
+    cursor: grab;
+    transition: background-color 0.3s ease; 
+  }
   
 }
 
