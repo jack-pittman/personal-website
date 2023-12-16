@@ -1,0 +1,104 @@
+/* GENERAL STYLING */
+:root {
+  --standard-orange: #f98e50;
+  --vintage-cream: #f5d5af; 
+  --shadow-brown: #7a6a57;
+  --slate-gray: #24201a;
+}
+
+
+/* HEADER */
+
+.head-container {
+  margin: 0px;
+  position: fixed; /* This makes the header stay in the same place */
+  top: 0; /* Align the header to the top of the viewport */
+  left: 0; /* Align the header to the left of the viewport */
+  width: 100%; /* Ensure the header extends full width */
+  z-index: 1000; /* Ensure the header stays on top of other elements */
+  /* Add other properties like background-color as needed */
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); 
+
+}
+
+.header {
+  background-color: var(--standard-orange);
+  background-color: var(--slate-gray);
+
+  text-align: right; 
+  margin: 0px; 
+  /* padding: 20px;  */
+
+  display:flex;
+  flex-wrap:wrap;
+  /* gap:10px; */
+  justify-content:right;
+}
+
+.header a {
+  font-family: 'Roboto Mono';
+  /* font-family: 'Bebas Neue'; */
+  font-weight: bold;
+  font-size: large; 
+  color: var(--vintage-cream); 
+  margin-right: 50px; 
+  margin-left: 50px; 
+  /* padding: 20px; */
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+
+  text-decoration: none; 
+
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* User select for WebKit browsers */
+}
+
+.header a:hover {
+  color: var(--vintage-cream); 
+  /* color: ; */
+}
+
+#jlogo {
+  padding: 5px; 
+  margin-right: auto; 
+  width: 50px; 
+  height: 50px; 
+
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* User select for WebKit browsers */
+  pointer-events: none; /* Prevents clicking and dragging */
+}
+#cur-page {
+  text-decoration:underline;
+  text-underline-offset: 7px; 
+  text-decoration-thickness: 3px; 
+  text-decoration-color: var(--standard-orange);
+  /* color: var(--standard-orange); */
+}
+
+
+@media (max-width:1000px) {
+  .head-container {
+    /* margin: 0px; */
+    position: static; /* This makes the header stay in the same place */
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.0); 
+
+  }
+  .header a {
+      flex-basis:100%;
+      font-size: x-large;
+      margin-top: 0px;
+      margin-bottom: 40px; 
+
+      text-decoration: none !important;
+  }
+
+  #jlogo {
+    padding: 20px; 
+    margin-right: auto; 
+    width: 100px; 
+    height: 100px; 
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="head-container">
+        <div class="header">
+            <img src="media/j_logo2.png" alt="J Logo" id="jlogo">
+            <a href="index.html" style="text-decoration: none">home</a>
+            <a href="portfolio.html" style="text-decoration: none">portfolio</a>
+            <a href="contact.html" id="cur-page">contact</a>
+        </div>
+    </div>
+
+    <div class="body">
+        <h1 id="asterisk">***</h1>
+        <div class="container">
+            
+            <div class="orange-container">
+                <h2>let's talk!</h2>
+                <p>If you're interested in my work, or want to chat about future projects, I'd love to connect! </p>
+
+<!--                CONTACT ICONS (LINKEDIN, GITHUB, EMAIL)-->
+
+                <div class="contact-image-row">
+                    <a href="mailto:jackpittman2020@gmail.com">
+                        <img id="contact-image" src="media/contact_logos/email2.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/john-pittman-91a9181ab/">
+                        <img id="contact-image" src="media/contact_logos/linkedin1.png">
+                    </a>
+                    <a href="https://github.com/jack-pittman">
+                        <img id="contact-image" src="media/contact_logos/git1.png">
+                    </a>
+                </div>
+
+                <!-- FORM -->
+                <form id="contact-form">
+                    <div class="form-wrapper">
+                        <div class="call-to-action">
+                            <h6>EMAIL ME!</h6>
+                        </div>
+                        <div class="email">
+                            <label for="email-box"><p>Your Name</p></label>
+                            <input type="text" id="email-box" name="subject" required>
+                        </div>
+                        <div class="subject">
+                            <label for="subject"><p>Subject</p></label>
+                            <input type="text" id="subject-box" name="subject" required>
+                        </div>
+                        <div class="description">
+                            <label for="description"><p>Message</p></label>
+                            <textarea id="description-box" name="description" rows="4" required></textarea>
+                        </div>
+
+                        <div class="submit-button">
+                            <button id="submitButton" onclick="handleSubmit()">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-hero-container">
+                <!-- <h1>[BIG TEXT]</h1> -->
+                <div class="contact-image-container">
+                    <img src="media/music_jack.png" alt="Puma Jack" id="contactjack">
+                    <div id="quote-text">
+                        <p><i>"Imagination is more important than knowledge."</i></p>
+                        <div id="quote-name">
+                            <p>-Albert Einstein</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <p style="text-align:center;">(c)2023 jack pittman. all rights reserved.</p>
+    </div>
+</body>
+<script src="js/form.js"></script>
+</html>
