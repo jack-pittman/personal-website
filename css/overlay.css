@@ -156,4 +156,8 @@
     .overlay-text a p {
             text-align: center;
     }
+
+    #overlay-image {
+        display: none; 
+    }
 }
