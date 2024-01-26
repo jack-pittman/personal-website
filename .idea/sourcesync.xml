@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SourceSyncRemoteConfigurationsService"><![CDATA[{
+  "connections": [
+    {
+      "type": "scp_configuration",
+      "name": "FrontEndChronos",
+      "hostname": "chronos.cs.elon.edu",
+      "username": "jpittman7",
+      "remote_workspace_path": "/home/jpittman7/www"
+    }
+  ],
+  "mainConnection": "FrontEndChronos"
+}]]></component>
+</project>

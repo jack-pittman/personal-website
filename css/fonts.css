@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Bebas Neue'; /* Choose a custom name for your font */
+    src: url('../media/fonts/BebasNeue-Regular.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+
+@font-face {
+  font-family: 'Roboto Mono'; /* Choose a custom name for your font */
+  src: url('../media/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+  /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}

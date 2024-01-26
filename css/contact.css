@@ -1,0 +1,85 @@
+
+
+.contact-image-row {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 60px; 
+
+    margin-top: 50px;
+
+    align-items: center;
+
+    align-self: flex-end;
+    justify-content: center; 
+}
+
+
+.contact-hero-container {
+  padding: 10px;
+  width: 40%;
+  /* border-radius: 10px; */
+
+  display: flex; /* Add this to make it a flex container */
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-image-container {
+    width: 100%;
+    background-color: var(--standard-orange);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+img {
+    width: 30px;
+}
+
+#contactjack {
+  width: 100%;
+  margin-bottom: 0px;
+
+  border-radius: 10px;
+
+  user-select: none; /* Disable text selection */
+  -webkit-user-drag: none; /* For Safari */
+}
+
+#pattern {
+  width: 100%;
+  margin-bottom: 20px;
+
+  user-select: none; /* Disable text selection */
+  -webkit-user-drag: none; /* For Safari */
+}
+
+#quote-text p {
+
+    margin-top: 10px;
+    color: var(--vintage-cream);
+}
+
+#quote-name p {
+    color: var(--slate-gray:);
+}
+
+@media (max-width:1000px) {
+    .contact-image-row {
+        margin-top: 50px;
+    }
+    .contact-hero-container {
+      width: 90%;
+    }
+    .contact-image-container {
+          width: 90%;
+        }
+}
