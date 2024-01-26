@@ -27,13 +27,13 @@ const summaryContent = [
         "linkText": "check it out!"
     },
     {
-        "name": "Music",
-        "description": "Music I've released on streaming platforms.",
-        "image1": "media/portfolio_images/music.jpg",
+        "name": "Symptomatic",
+        "description": "Mobile app built in react native for hassle-free symptom tracking and health management.",
+        "image1": "media/portfolio_images/symptomatic.png",
         "image2": "",
         "image3": "",
-        "link": "https://open.spotify.com/artist/6hY2mRGiUFnPxlZwPvU5vR?si=PCyCJgjkQm2UzJvABUWZnA",
-        "linkText": "listen now"
+        "link": "https://github.com/jack-pittman/symptom-tracker",
+        "linkText": "open in github"
     },
     {
         "name": "Zerofox",
