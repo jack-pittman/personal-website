@@ -1,7 +1,7 @@
 const summaryContent = [
     {
         "name": "Callbird",
-        "description": "As a software engineer intern at Callbird, I was tasked with developing a user analytics tool aimed at monitoring and analyzing user growth and engagement. Working with a compact startup team, I gained valuable experience and insight in the startup space, including building a useful and impactful product.",
+        "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
         "image1": "media/portfolio_images/callBird.jpeg",
         "image2": "",
         "image3": "",
@@ -11,7 +11,7 @@ const summaryContent = [
     {
         "name": "TutorKai",
         "description": "Full-stack prototype I built for an education startup, combining sleek frontend design with secure login functionality using Airtable's API.",
-        "image1": "media/portfolio_images/tutorKai.jpeg",
+        "image1": "media/portfolio_images/tutorkai2.png",
         "image2": "",
         "image3": "",
         "link": "https://github.com/jack-pittman/tutor-kai",

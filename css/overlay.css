@@ -145,6 +145,8 @@
     .overlay-image-container {
         height: 200px;
         /*display: none;*/
+        /* justify-content: flex-start; */
+        align-items: flex-start;
     }
     .overlay-text h1 {
         text-align: center;
@@ -157,6 +159,6 @@
     }
 
     #overlay-image {
-        display: none; 
+        /* display: none;  */
     }
 }
