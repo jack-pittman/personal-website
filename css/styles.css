@@ -4,6 +4,8 @@
 :root {
   --standard-orange: #f98e50;
   --vintage-cream: #f5d5af; 
+  --light-brown: #cdb08e; 
+
   --shadow-brown: #7a6a57;
   --slate-gray: #24201a;
 }
@@ -108,6 +110,8 @@ h1 {
 
 #asterisk {
   margin-top: 60px; 
+  color: var(--light-brown);
+  margin-bottom: 10px;
 }
 
 h2 {

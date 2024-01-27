@@ -18,7 +18,7 @@
   z-index: 1000; /* Ensure the header stays on top of other elements */
   /* Add other properties like background-color as needed */
 
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); 
 
 }
 
@@ -83,7 +83,7 @@
     /* margin: 0px; */
     position: static; /* This makes the header stay in the same place */
 
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.0); 
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.0);  */
 
   }
   .header a {
