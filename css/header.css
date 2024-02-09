@@ -23,8 +23,10 @@
 }
 
 .header {
-  background-color: var(--standard-orange);
-  background-color: var(--slate-gray);
+  /* background-color: var(--standard-orange); */
+  background-color: var(--slate-gray); 
+  /* background: linear-gradient(-135deg, var(--slate-gray) 0%, var(--slate-gray) 50%,var(--shadow-brown) 100%); */
+
 
   text-align: right; 
   margin: 0px; 

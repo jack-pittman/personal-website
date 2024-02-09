@@ -3,22 +3,36 @@
     --vintage-cream: #f5d5af; 
  }
 
-.icon-box {
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-bottom: 2.5%; */
+    /* margin-top: -2.5%; */
+
+    /* gap: 10px; */
+    width: 100%;
+}
+ .icon-box {
     /* background-color: var(--standard-orange); */
     background-color: var(--shadow-brown);
+    background-color: var(--slate-gray);
+
     /* background-color: blue; */
-    padding: 20px; 
+    padding: 5%; 
   
-    margin: 10px; 
-    width: 40%; 
-    flex-basis: 40%; 
+ 
+    /* width: 30%;  */
+    flex-basis: 100%; 
   
-    border-radius: 10px; 
+    /* border-radius: 5%;  */
   
     justify-content: center; 
     align-items: center;
 
     /* width: 100%; */
+    /* margin-top: 3%; */
 }
 
 .icon-container {
@@ -26,17 +40,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin-top: 10px;
+
+    height: 100%;
+
+    /* padding: 2.5%; */
+    /* margin-top: 10px; */
 
     justify-content: center; 
+    align-items: center;
+
+    gap: 40px;
 }
 
 .skill-logo-title {
     /* background-color: var(--standard-orange); */
     /* background-color: var(--vintage-cream); */
   
-    padding: 10px; 
+    /* padding: 10px;  */
+
     border-radius: 30px; 
     margin-bottom: 30px; 
   
@@ -44,23 +65,37 @@
   
     /* width: 50%; */
 }
-  
-.skill-logo-title #skillsTitle{
-    color: var(--vintage-cream);
-    /* color: var(--standard-orange); */
-  
-    text-align: center;
-}
 
 .icon-row {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
 
-    gap: 60px;
+    flex-direction: row;
+
+    justify-content: center;
+    /* flex-wrap: wrap;  */
+
+    gap: 30%;
     width: 80%;
 
     margin-bottom: 20px; 
+}
+
+.icon-row p {
+    font-family: 'Roboto Mono';
+
+    color: var(--vintage-cream);
+    color: #dabd9a;
+    font-weight: medium;
+
+
+    text-align: left;
+
+    width: 20%;
+}
+
+.icon-row #orange {
+    color: var(--standard-orange);
+    font-weight: medium;
 }
 
 .icon-row img {
@@ -75,7 +110,15 @@ a img {
   }
 
 @media (max-width:1000px) {
-  .icon-box {
+    .icon-wrapper {
+        flex-direction: column;
+    }
+
+    .icon-box {
     flex-basis:100%;
+    width: 100%;
+    margin: 0%;
+    padding: 10%;
   }
+
 }

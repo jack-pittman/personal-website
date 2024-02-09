@@ -15,8 +15,9 @@
 
 
 .contact-hero-container {
-  padding: 10px;
-  width: 40%;
+  padding: 2.5%;
+  /* width: 40%; */
+  flex-basis: 40%;
   /* border-radius: 10px; */
 
   display: flex; /* Add this to make it a flex container */
@@ -69,7 +70,7 @@ img {
 }
 
 #quote-name p {
-    color: var(--slate-gray:);
+    /* color: var(--slate-gray); */
 }
 
 @media (max-width:1000px) {

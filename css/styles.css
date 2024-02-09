@@ -14,6 +14,7 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: var(--vintage-cream);
+  background-color: #dabd9a;
 }
 
 html,body {
@@ -29,27 +30,39 @@ html,body {
   margin-left: 15%; 
 
   margin-top: 0px;
+  margin-top: 7%;
+  margin-bottom: 2.5%;
+
   padding: 20px; 
 
+  border-radius: 5px;
+
   background-color: var(--vintage-cream);
+
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px; 
-  justify-content: center; /* Keep containers side by side */
+  flex-direction: row;
+  /* gap: 10px;  */
+  justify-content: center; 
+
+  /* margin-top: 30px; */
 }
 
 .pumajack-container {
-  background-color: #7a6a57;
+  /* background-color: #7a6a57; */
   background-color: var(--standard-orange);
   /* background-color: #f5d5af; */
 
-  padding: 20px;
-  margin: 10px;
-  width: 40%;
+  padding: 2%;
+  margin: 2.5%;
+  /* width: 40%; */
   flex-basis: 40%;
-  border-radius: 10px;
+  border-radius: 2.5%;
 
   display: flex; /* Add this to make it a flex container */
   justify-content: center;
@@ -58,10 +71,10 @@ html,body {
 .orange-container {
   background-color: var(--standard-orange);
   /* background-color: blue; */
-  padding: 20px; 
+  padding: 3%; 
 
-  margin: 10px; 
-  width: 40%; 
+  margin: 2.5%; 
+  /* width: 40%;  */
   flex-basis: 40%; 
 
   border-radius: 10px; 
@@ -76,7 +89,7 @@ html,body {
   padding: 20px; 
 
   margin: 10px; 
-  width: 40%; 
+  /* width: 40%;  */
   flex-basis: 40%; 
   justify-content: center;
 
@@ -85,13 +98,14 @@ html,body {
 }
 .transparent-container {
   /* background-color: var(--standard-orange); */
-  padding: 20px; 
+  padding: 5%; 
 
-  margin: 10px; 
-  width: 40%; 
+  /* width: 40%;  */
   flex-basis: 40%; 
 
   justify-content: center;
+  margin-top: 3%;
+
 }
 
 h1 {
@@ -109,9 +123,9 @@ h1 {
 }
 
 #asterisk {
-  margin-top: 60px; 
+  margin-top: 80px; 
   color: var(--light-brown);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -127,6 +141,8 @@ p {
   font-family: 'Roboto Mono';
   color: var(--slate-gray);
   text-align: left; 
+
+  font-size: 90%;
   /* color: var(--vintage-cream); */
   /* font-weight:regular; */
 
@@ -139,10 +155,10 @@ p {
 #bigtext {
   padding: 0px; 
 
-  margin-top: 10px; 
-  margin-left: 20px; 
+  /* margin-top: 10px;  */
+  /* margin-left: 20px;  */
   width: 100%; 
-  /* flex-basis: 100%;  */
+  /* flex-basis: 50%;  */
 
   user-select: none; /* Disable text selection */
   -webkit-user-drag: none; /* For Safari */
@@ -155,6 +171,19 @@ p {
   -webkit-user-drag: none; /* For Safari */
 
   border-radius: 10px;
+}
+
+.hero-row {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wireframe {
+  width: 50%;
+  border-radius: 2.5%;
 }
 
 .link-container {
@@ -242,8 +271,12 @@ p {
 }
 
 .footer {
-  background-color: var(--standard-orange);
-  background-color: var(--slate-gray);
+  /* background-color: var(--standard-orange); */
+  background-color: var(--slate-gray); 
+  /* background: linear-gradient(135deg, var(--slate-gray) 0%, var(--shadow-brown) 100%); */
+  /* background: linear-gradient(-135deg, var(--slate-gray) 0%, var(--slate-gray) 50%,var(--shadow-brown) 100%); */
+
+
   height: 50px; 
   padding: 20px; 
 
@@ -252,45 +285,51 @@ p {
 }
 
 .footer p {
-  color: var(--vintage-cream);
+  color: var(--shadow-brown);
 }
 
 @media (max-width:1000px) {
   .body {
     margin-right: 0%; 
     margin-left: 0%; 
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    border-radius: 0px;
+  }
+  #asterisk {
+    margin-top: 30px; 
   }
 
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
   .orange-container {
-    flex-basis:100%;
+      flex-basis: 100%;
+      padding: 10%;
   }
   .pumajack-container {
     /* background-color: var(--standard-orange); */
-    padding: 20px;
-    margin: 10px;
-    width: 100%;
-    flex-basis: 100%;
+    padding: 5%;
+    margin: 2.5%;
+    /* width: 100%; */
+    flex-basis: 40%;
 
   }
   .link-border {
     margin-top: 40px; 
   }
   .transparent-container {
-    flex-basis: 100%;
+    flex-basis: 20%;
+    display: none;
   }
   .link-border {
     padding: 2px; 
-    /* background-color: white;  */
-    /* border-radius: 10px;  */
-  
-    /* margin-top: 1;  */
   
     background: linear-gradient(to left, rgb(255, 103, 103), orange, yellow, rgb(42, 255, 42), rgb(104, 104, 255), rgb(192, 103, 255), rgb(250, 49, 49), rgb(255, 103, 103), yellow);
     background-size: 400% auto;
     color: transparent;
-    /* background-clip: text; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
     animation: rainbow 3s linear infinite;
   
     cursor: grab;
@@ -299,10 +338,6 @@ p {
 
   #portfolio-link {
     padding: 2px; 
-    /* background-color: white;  */
-    /* border-radius: 10px;  */
-  
-    /* margin-top: 1;  */
   
     background: linear-gradient(to left, rgb(255, 103, 103), orange, yellow, rgb(42, 255, 42), rgb(104, 104, 255), rgb(192, 103, 255), rgb(250, 49, 49), rgb(255, 103, 103), yellow);
     background-size: 400% auto;

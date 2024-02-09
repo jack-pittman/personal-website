@@ -11,9 +11,10 @@
     margin-top: 0px;
     margin-bottom: 30px; 
     
-    padding: 20px; 
+    padding: 20%; 
   
     background-color: var(--vintage-cream);
+    /* border-radius: 10px; */
 }
 
 .portfolio-body h1 {
@@ -21,19 +22,21 @@
 }
 
 .portfolio-wrapper {
-    margin-top: 0px; 
+    margin-top: 2.5%; 
+    margin-bottom: 2.5%;
     
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 15px; 
     justify-content: center; /* Keep containers side by side */
-  }
+}
 .portfolio-container {
     background-color: var(--standard-orange);
     /* padding: 20px;  */
     /* border-radius: 10px;  */
     /* border: solid 4px transparent; */
     border: solid 3px var(--vintage-cream);
+    /* border: solid 3px #dabd9a; */
     border-radius: 10px;
 
     overflow: hidden; 
@@ -95,4 +98,8 @@
     .portfolio-container {
         flex-basis: 40%;
     }    
+    .portfolio-wrapper {
+        flex-direction: column;
+        width: 50%;
+    }
 }
