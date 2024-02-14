@@ -30,7 +30,7 @@ html,body {
   margin-left: 15%; 
 
   margin-top: 0px;
-  margin-top: 7%;
+  margin-top: calc(50px + 4%);
   margin-bottom: 2.5%;
 
   padding: 20px; 
@@ -56,6 +56,7 @@ html,body {
 .pumajack-container {
   /* background-color: #7a6a57; */
   background-color: var(--standard-orange);
+  /* background-color: #a2927f; */
   /* background-color: #f5d5af; */
 
   padding: 2%;
@@ -288,6 +289,28 @@ p {
   color: var(--shadow-brown);
 }
 
+.pumajack-container {
+  background-color: transparent;
+  /* padding: 5%; */
+  /* margin: 2.5%; */
+  /* width: 40%; */
+  /* flex-basis: 50%; */
+
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pumajack {
+  width: 90%;
+  border: solid 20px var(--standard-orange);
+  border: solid 20px #dabd9a;
+
+  border-radius: 50%;
+  /* margin-top: 12%; */
+}
+
 @media (max-width:1000px) {
   .body {
     margin-right: 0%; 
@@ -310,13 +333,28 @@ p {
       padding: 10%;
   }
   .pumajack-container {
-    /* background-color: var(--standard-orange); */
-    padding: 5%;
+    background-color: transparent;
+    /* padding: 5%; */
     margin: 2.5%;
-    /* width: 100%; */
+    /* width: 40%; */
     flex-basis: 40%;
 
   }
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pumajack {
+    width: 80%;
+    border: solid 20px var(--standard-orange);
+    border: solid 20px #dabd9a;
+
+    border-radius: 50%;
+    margin-top: 12%;
+  }
+
+
   .link-border {
     margin-top: 40px; 
   }

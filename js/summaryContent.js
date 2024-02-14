@@ -1,58 +1,40 @@
 const summaryContent = [
     {
-        "name": "Callbird",
-        "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
-        "image1": "media/portfolio_images/callBird.jpeg",
-        "image2": "",
-        "image3": "",
-        "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",
-        "linkText": "open in github"
-    },
-    {
-        "name": "TutorKai",
-        "description": "Full-stack prototype I built for an education startup, combining sleek frontend design with secure login functionality using Airtable's API.",
-        "image1": "media/portfolio_images/tutorkai2.png",
-        "image2": "",
-        "image3": "",
-        "link": "https://github.com/jack-pittman/tutor-kai",
-        "linkText": "open in github" 
-    },
-    {
-        "name": "Myriad",
-        "description": "Product design for my personal clothing brand.",
-        "image1": "media/portfolio_images/myriad.png",
-        "image2": "",
-        "image3": "",
-        "link": "https://drive.google.com/drive/u/0/folders/1WcejGKardExU2u4ePQdSeGY9Wn253MR2",
-        "linkText": "check it out!"
-    },
-    {
-        "name": "Symptomatic",
-        "description": "Mobile app built in react native for hassle-free symptom tracking and health management.",
-        "image1": "media/portfolio_images/symptomatic.png",
-        "image2": "",
+        "name": "SYMPTOMATIC",
+        "description": "Mobile app built in React Native for hassle-free symptom tracking and health management.",
+        "image1": "media/portfolio_images/wireframe.png",
+        "image2": "media/portfolio_logos/symptomatic.png",
         "image3": "",
         "link": "https://github.com/jack-pittman/symptom-tracker",
         "linkText": "open in github"
     },
     {
-        "name": "Zerofox",
-        "description": "Serial web fiction project. <br><br> When a young squad of intelligence operatives are ordered to commit a war crime, they refuse, and in doing so tip the balance of intergalactic power; with only their wits, their battle-tested skills, and the help of a newfound friend, they narrowly escape the sinister grasp of their employer.",
-        "image1": "media/portfolio_images/writing.png",
-        "image2": "",
+        "name": "CALLBIRD",
+        "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
+        "image1": "media/portfolio_images/callBird.jpeg",
+        "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
-        "link": "https://drive.google.com/drive/u/0/folders/1eBkhZVjrpgy32aIUTFWDss6kkCmZPYYo",
-        "linkText": "start reading"
+        "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",
+        "linkText": "open in github"
     },
     {
-        "name": "More",
-        "description": "Have more questions about my portfolio? Interested in collaborating on future projects? Let's connect!",
-        "image1": "media/portfolio_images/more.jpg",
-        "image2": "",
+        "name": "CS POETRY",
+        "description": "Branding and website solution built in Next.js for a professional writer looking to enhance their online presence.",
+        "image1": "media/portfolio_images/poetrySite.png",
+        "image2": "media/portfolio_logos/more.png",
         "image3": "",
-        "link": "contact.html",
-        "linkText": "contact me!"
-    }
+        "link": "https://poetry-site-next.vercel.app/",
+        "linkText": "visit site"
+    },
+    {
+        "name": "TUTORKAI",
+        "description": "Full-stack prototype I built for an education startup, combining sleek frontend design with secure login functionality using Airtable's API.",
+        "image1": "media/portfolio_images/tutorkai2.png",
+        "image2": "media/portfolio_logos/tutorKai.png",
+        "image3": "",
+        "link": "https://github.com/jack-pittman/tutor-kai",
+        "linkText": "open in github" 
+    },
 ]
 //
 //const summaryContent = [];

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/portfolio2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="head-container">
+        <div class="header">
+            <img src="media/shinyLogo.gif" alt="J Logo" id="jlogo" >
+            <a href="index.html" style="text-decoration: none">home</a>
+            <a href="portfolio2.html" id="cur-page">portfolio</a>
+            <a href="contact.html" style="text-decoration: none">contact</a>
+        </div>
+    </div>
+
+    <div class="portfolio-frame">
+        <div class="menu-bar">
+            <p onclick="handleMenuClick(0)" id="SYMPTOMATIC" class="currPage">Symptomatic</p>
+            <p onclick="handleMenuClick(1)" id="CALLBIRD">Callbird</p>
+            <p onclick="handleMenuClick(2)" id="CS POETRY">CS Poetry</p>
+            <p onclick="handleMenuClick(3)" id="TUTORKAI">TutorKai</p>
+            <!-- <div class="arrows">
+                <p>prev next</p>
+            </div> -->
+        </div>
+        <div class="content-column">
+            <!-- <h1>SYMPTOM TRACKER</h1> -->
+            <div class="content-column-wrapper">
+                <img src="media/portfolio_images/wireframe.png" alt="symptomatic" id="heroImage" >
+                <div class="description-box">
+                    <p id="textDescription">Mobile app built in React Native for hassle-free symptom tracking and health management.</p>
+                    <a href="https://github.com/jack-pittman/symptom-tracker" id="link"><p id="linkText">open in github</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="right-gutter">
+            <img src="media/portfolio_logos/symptomatic.png" alt="symptomatic" id="iconLogo" >
+            <p id="iconCaption">SYMPTOMATIC</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="text-align:center;">(c)2023 jack pittman. all rights reserved.</p>
+    </div>
+</body>
+
+<script src="js/summaryContent.js"></script>
+<script src="js/portfolio_menu.js"></script>
+<script src="js/hover.js"></script>
+</html>

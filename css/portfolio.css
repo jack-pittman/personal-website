@@ -38,6 +38,7 @@
     border: solid 3px var(--vintage-cream);
     /* border: solid 3px #dabd9a; */
     border-radius: 10px;
+    /* border-radius: 2.5%; */
 
     overflow: hidden; 
   
@@ -50,6 +51,7 @@
   
   
     padding: 18px; 
+    /* padding: 5%; */
 
     /* transition: border 0.3s ease;  */
 
@@ -97,6 +99,7 @@
 @media (max-width:1000px) {
     .portfolio-container {
         flex-basis: 40%;
+        padding: 20px;
     }    
     .portfolio-wrapper {
         flex-direction: column;

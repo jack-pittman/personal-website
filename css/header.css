@@ -40,10 +40,11 @@
 
 .header a {
   font-family: 'Roboto Mono';
-  /* font-family: 'Bebas Neue'; */
-  font-weight: bold;
+  /* font-family: 'Courier New'; */
+  /* font-weight: lighter; */
   font-size: large; 
   color: var(--vintage-cream); 
+  color: var(--shadow-brown);
   margin-right: 50px; 
   margin-left: 50px; 
   /* padding: 20px; */
@@ -58,7 +59,7 @@
 
 .header a:hover {
   color: var(--vintage-cream); 
-  /* color: ; */
+  color: #dabd9a;
 }
 
 #jlogo {
@@ -76,7 +77,9 @@
   text-underline-offset: 7px; 
   text-decoration-thickness: 3px; 
   text-decoration-color: var(--standard-orange);
-  /* color: var(--standard-orange); */
+  /* text-decoration-color: var(--shadow-brown); */
+
+  color: var(--vintage-cream);
 }
 
 

@@ -113,12 +113,21 @@ a img {
     .icon-wrapper {
         flex-direction: column;
     }
+    .icon-container {
+        gap: 40px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 
     .icon-box {
     flex-basis:100%;
     width: 100%;
     margin: 0%;
-    padding: 10%;
-  }
+    /* margin-top: 5%; */
+    }
+    .icon-row {
+
+        gap: 20%;
+    }
 
 }
