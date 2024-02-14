@@ -11,7 +11,7 @@ const summaryContent = [
     {
         "name": "CALLBIRD",
         "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
-        "image1": "media/portfolio_images/callBird.jpeg",
+        "image1": "media/portfolio_images/callBird5.png",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
         "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",

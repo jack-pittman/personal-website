@@ -4,6 +4,8 @@
 :root {
   --standard-orange: #f98e50;
   --vintage-cream: #f5d5af; 
+  --cream-shadow: #dabd9a;
+
   --light-brown: #cdb08e; 
 
   --shadow-brown: #7a6a57;
@@ -35,7 +37,7 @@ html,body {
 
   padding: 20px; 
 
-  border-radius: 5px;
+  border-radius: 30px;
 
   background-color: var(--vintage-cream);
 
@@ -78,7 +80,7 @@ html,body {
   /* width: 40%;  */
   flex-basis: 40%; 
 
-  border-radius: 10px; 
+  border-radius: 20px; 
 
   justify-content: center; 
   align-items: center;
@@ -248,7 +250,7 @@ p {
   background-clip: text;
   color: var(--vintage-cream);
   color: var(--standard-orange);
-  /* color: var(--shadow-brown); */
+  /* color: var(    --cream-shadow); */
 
   cursor: grab; 
 }

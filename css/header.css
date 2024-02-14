@@ -40,8 +40,10 @@
 
 .header a {
   font-family: 'Roboto Mono';
-  /* font-family: 'Courier New'; */
-  /* font-weight: lighter; */
+  font-family: 'Futura';
+  /* font-family: 'Courier'; */
+
+  font-weight: medium;
   font-size: large; 
   color: var(--vintage-cream); 
   color: var(--shadow-brown);
