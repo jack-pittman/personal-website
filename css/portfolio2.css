@@ -58,7 +58,7 @@
     font-weight: bold;
 }
 .menu-bar .currPage {
-    color: var(--vintage-cream);
+    /* color: var(--vintage-cream); */
     font-weight: bold;
 }
 .content-column {
@@ -73,7 +73,7 @@
     padding: 5%;
 }
 .content-column h1 {
-    
+    font-family: 'Helvetica';
 
     position: absolute;
 
