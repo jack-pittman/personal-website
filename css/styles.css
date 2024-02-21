@@ -73,6 +73,8 @@ html,body {
 }
 .orange-container {
   background-color: var(--standard-orange);
+  /* background-color: var(--cream-shadow); */
+
   /* background-color: blue; */
   padding: 3%; 
 
@@ -134,6 +136,8 @@ h1 {
 h2 {
   font-family: 'Roboto Mono';
   color: var(--vintage-cream);
+  /* color: var(--standard-orange); */
+
 
   margin-top: 0px; 
 
@@ -142,7 +146,10 @@ h2 {
 
 p {
   font-family: 'Roboto Mono';
+
   color: var(--slate-gray);
+  /* color: var(--cream-shadow); */
+
   text-align: left; 
 
   font-size: 90%;
@@ -191,11 +198,16 @@ p {
 
 .link-container {
   background-color: var(--slate-gray);
+  /* background-color: var(--shadow-brown); */
+
   /* background-color: rgb(58, 58, 58);  */
   padding: 15px; 
   border-radius: 30px; 
 
   /* margin-top: 20px;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @keyframes rainbow {
@@ -242,7 +254,14 @@ p {
 
 #portfolio-link {
   /* margin-top: 20px; */
-  font-weight: bold;
+  font-family: 'Roboto Mono';
+  /* font-family: 'Helvetica'; */
+  /* font-family: 'Courier New'; */
+  /* font-family: 'Montserrat'; */
+
+
+
+  /* font-weight: bold; */
 
   /* text-decoration: none !important; */
 
@@ -250,7 +269,7 @@ p {
   background-clip: text;
   color: var(--vintage-cream);
   color: var(--standard-orange);
-  /* color: var(    --cream-shadow); */
+  /* color: var(--cream-shadow); */
 
   cursor: grab; 
 }
@@ -259,7 +278,7 @@ p {
   /* text-align: center;  */
 
   /* margin-top: 20px; */
-  font-weight: bold;
+  /* font-weight: bold; */
   /* color: var(--vintage-cream); */
 
   cursor: grab; 
@@ -306,8 +325,12 @@ p {
 }
 #pumajack {
   width: 90%;
-  border: solid 20px var(--standard-orange);
-  border: solid 20px #dabd9a;
+  /* border: solid 20px black; */
+
+
+  border: solid 20px var(--cream-shadow);
+  /* border: solid 20px var(--standard-orange); */
+
 
   border-radius: 50%;
   /* margin-top: 12%; */
