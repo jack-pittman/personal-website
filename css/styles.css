@@ -71,26 +71,34 @@ html,body {
   justify-content: center;
   align-items: top;
 }
+.fixed-width-container {
+  flex-basis: 50%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .orange-container {
   background-color: var(--standard-orange);
   /* background-color: var(--cream-shadow); */
 
   /* background-color: blue; */
-  padding: 3%; 
+  padding: 80px; 
 
   margin: 2.5%; 
   /* width: 40%;  */
 
   display: flex;
   flex-direction: column;
-  flex-basis: 40%; 
+  flex-basis: 100%; 
 
   border-radius: 20px; 
 
   justify-content: space-between; 
-  justify-content: center; 
+  /* align-items: center; */
+  /* justify-content: center;  */
 
-  gap: 30%;
+  /* gap: 30%; */
 
   /* justify-content: flex-end;  */
 
@@ -124,6 +132,8 @@ html,body {
 
 h1 {
   font-family: 'Roboto Mono';
+  font-family: 'Montserrat';
+
   text-align: center; 
 
   margin-top: 5px; 
@@ -144,6 +154,10 @@ h1 {
 
 h2 {
   font-family: 'Roboto Mono';
+  font-family: 'Montserrat';
+
+  /* font-weight: lighter; */
+
   color: var(--vintage-cream);
   font-size: 180%;
 
@@ -235,6 +249,8 @@ p {
   margin-top: 30px; 
   margin-left: auto; 
   margin-right: auto; 
+  /* margin-bottom: 10%; */
+
   
   padding: 2px; 
   background-color: var(--shadow-brown); 

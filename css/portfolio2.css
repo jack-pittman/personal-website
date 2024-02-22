@@ -43,9 +43,20 @@
     flex-basis: 15%;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     /* background-color: var(--shadow-brown); */
+}
+.menu-bar .left-line {
+    width: 5px;
+    height: 100px;
+    margin-top: 10%;
+
+    border-radius: 10px;
+
+    background-color: var(--shadow-brown);
+    /* background-color: var(--standard-orange); */
+
 }
 .menu-bar .menu-box {
     /* position: absolute */
@@ -75,8 +86,8 @@
 
     margin-bottom: 15%;
 
-    animation: fadeIn 1s ease-in-out forwards;
-    opacity: 0;
+    /* animation: fadeIn 1s ease-in-out forwards; */
+    /* opacity: 0; */
 }
 .menu-bar p:hover {
     color: var(--vintage-cream);
@@ -104,17 +115,28 @@
 }
 .content-column h1 {
     font-family: 'Montserrat';
+    /* font-family: 'Roboto Mono'; */
+
+    /* font-weight: lighter; */
 
     /* position: absolute; */
 
-    color: var(--cream-shadow);
+    /* color: var(--vintage-cream); */
     color: var(--shadow-brown);
     /* color: var(--standard-orange); */
+
+    /* background-color: var(--standard-orange); */
+    /* background-color: var(--slate-gray); */
+
+    border-radius: 100px;
+
 
     /* margin-right: 55%; */
     margin-bottom: 40px;
 
     /* transform: rotate(-90deg); */
+
+    padding: 20px;
 
 }
 .content-column #heroImage {
@@ -125,6 +147,11 @@
 
     transition: opacity 1s;
     margin-bottom: 5%;
+
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+
+
 }
 .content-column #heroImage:hover {
     /* border: solid var(--standard-orange) 3px; */
