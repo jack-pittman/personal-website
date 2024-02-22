@@ -88,6 +88,10 @@ html,body {
   border-radius: 20px; 
 
   justify-content: space-between; 
+  justify-content: center; 
+
+  gap: 30%;
+
   /* justify-content: flex-end;  */
 
   /* align-items: space-between; */
@@ -150,6 +154,8 @@ h2 {
 
 p {
   font-family: 'Roboto Mono';
+  /* font-family: 'Montserrat'; */
+
 
   color: var(--slate-gray);
   /* color: var(--shadow-brown); */
@@ -158,7 +164,7 @@ p {
 
   text-align: left; 
 
-  font-size: 110%;
+  font-size: 100%;
   /* color: var(--vintage-cream); */
   /* font-weight:regular; */
 
