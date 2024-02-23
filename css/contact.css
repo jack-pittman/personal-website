@@ -1,5 +1,3 @@
-
-
 .contact-image-row {
     display: flex; 
     flex-wrap: wrap; 
@@ -18,7 +16,7 @@
 
 
 .contact-hero-container {
-  padding: 2.5%;
+  padding: 10px;
   /* width: 40%; */
   flex-basis: 40%;
   /* border-radius: 10px; */
@@ -31,9 +29,11 @@
 }
 
 .contact-image-container {
-    width: 100%;
+    /* width: 100%; */
     background-color: var(--standard-orange);
-    border-radius: 10px;
+    background-color: var(--cream-shadow);
+
+    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ img {
   width: 100%;
   margin-bottom: 0px;
 
-  border-radius: 10px;
+  border-radius: 20px;
 
   user-select: none; /* Disable text selection */
   -webkit-user-drag: none; /* For Safari */
@@ -70,6 +70,8 @@ img {
 
     margin-top: 10px;
     color: var(--vintage-cream);
+    color: var(--shadow-brown);
+
 }
 
 #quote-name p {

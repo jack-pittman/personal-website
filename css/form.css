@@ -7,13 +7,22 @@
 }
 
 #contact-form {
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 2.5%;
+
+    width: 50%;
 
     background-color: var(--slate-gray);
+    /* background-color: var(--shadow-brown); */
+
     padding: 30px;
+    padding: 15%;
+
     border-radius: 20px;
+
+    margin-right: auto;
 }
 
 #contact-form p {
