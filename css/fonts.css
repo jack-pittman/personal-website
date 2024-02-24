@@ -9,3 +9,9 @@
   src: url('../media/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
   /* You can also specify other font formats like woff, woff2, eot for compatibility */
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../media/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+
+}
