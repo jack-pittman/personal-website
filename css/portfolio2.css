@@ -259,11 +259,16 @@
     }
     .menu-bar {
         display: flex;
+        flex-direction: column;
+
         justify-content: center;
         align-items: center;
     }
-    .menu-box {
-        display: flex;
+    .menu-bar .menu-box {
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 10px;
     }
     .menu-bar .currPage {
         color: var(--standard-orange);
@@ -272,7 +277,7 @@
         font-weight: bold;
     }
     .menu-bar p {
-        font-size: 200%;
+        font-size: 300%;
         margin-bottom: 0%;
         margin-right: 20px;
         margin-left: 20px;
