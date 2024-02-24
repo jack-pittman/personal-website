@@ -6,6 +6,17 @@
   --slate-gray: #24201a;
 }
 
+@keyframes driveIn {
+    from {
+        opacity: 0;
+        transform: translateY(100px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px); 
+    }
+  }
+
 #contact-form {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -23,6 +34,8 @@
     border-radius: 20px;
 
     margin-right: auto;
+
+    animation: driveIn 1s ease-in-out forwards;
 }
 
 #contact-form p {
