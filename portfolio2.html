@@ -24,34 +24,17 @@
     <!-- <div class="container"> -->
 
         <div class="menu-bar">
-            <div class="left-line">
-
+            <div class="left-line" id="desktop"></div>
+            <div class="menu-box-mobile" id="desktop">
+                <p onclick="handleMenuClick(0)" id="SYMPTOMATIC" class="currPage">Symptomatic</p>
+                <p onclick="handleMenuClick(1)" id="CALLBIRD">Callbird</p>
+                <p onclick="handleMenuClick(2)" id="CS POETRY">CS Poetry</p>
+                <p onclick="handleMenuClick(3)" id="TUTORKAI">TutorKai</p>
             </div>
-            <div class="menu-box">
-                <p onclick="handleMenuClick(0)" id="SYMPTOMATIC" class="currPage">
-                    •
-                </p>
-                <p onclick="handleMenuClick(1)" id="CALLBIRD">
-                    •
-                </p>
-                <p onclick="handleMenuClick(2)" id="CS POETRY">
-                    •
-                </p>
-                <p onclick="handleMenuClick(3)" id="TUTORKAI">
-                    •
-                </p>
-                <br>
-                <br>
+            <div class="arrows">
+                <p id="prev" onclick="showPrevItem()"> < </p>
+                <p id="next" onclick="showNextItem()"> > </p>
             </div>
-            <!-- <div class="menu-box-mobile">
-                <p onclick="handleMenuClick(0)" id="SYMPTOMATIC" class="currPage">•</p>
-                <p onclick="handleMenuClick(1)" id="CALLBIRD">•</p>
-                <p onclick="handleMenuClick(2)" id="CS POETRY">•</p>
-                <p onclick="handleMenuClick(3)" id="TUTORKAI">•</p>
-            </div> -->
-            <!-- <div class="arrows">
-                <p>prev next</p>
-            </div> -->
         </div>
         <div class="content-column">
             <!-- <img src="media/portfolio_logos/symptomatic.png" alt="symptomatic" style="width: 100px; margin-top: -20px; margin-bottom: 0px;" > -->

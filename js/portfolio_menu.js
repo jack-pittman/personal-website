@@ -5,8 +5,40 @@ function handleMenuClick(index) {
 }
 
 var currPage = 'SYMPTOMATIC';
+// global index variable
+var currIndex = 0;
+// RECORD LENGTH OF ARRAY
+var arrayLength = 4;
+
+function showNextItem() {
+    // if we've reached the end of the array, go to the beginning
+    if (currIndex == arrayLength - 1) {
+        currIndex = 0; 
+        showItem(0);
+    }
+    // otherwise go to the next item
+    else {
+        showItem(currIndex + 1);
+    }
+}
+
+function showPrevItem() {
+    // if we've reached the BEGINNING of the array, go to the END
+    if (currIndex == 0) {
+        currIndex = arrayLength-1; 
+        showItem(arrayLength-1);
+    }
+    // otherwise go to the next item
+    else {
+        showItem(currIndex - 1);
+    }
+}
 
 function showItem(index) {
+    // SET NEW INDEX
+    currIndex = index;
+    console.log(currIndex);
+
     // RETRIEVE ELEMENTS FROM PORTFOLIO PAGE
     var heroImage = document.getElementById("heroImage");
     var textDescription = document.getElementById("textDescription");
@@ -33,8 +65,6 @@ function showItem(index) {
     //CHANGE CLASSES
     prevMenuItem.className = "";
     currMenuItem.className = "currPage";
-
-
 
     // REPLACE WITH NEW CONTENT
     heroImage.src = summaryContent[index].image1; 
