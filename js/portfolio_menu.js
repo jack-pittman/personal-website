@@ -51,6 +51,14 @@ function showItem(index) {
     // GET DATA FROM JSON FILE USING INDEX
     //console.log(summaryContent);
 
+    // RESET CLASS NAME FOR CONTENT COLUMN 
+    var contentColumn = document.querySelector(".content-column");
+    
+
+
+
+    //RESET CLASSNAME FOR CONTENT COLUMN
+
     //RETRIEVE PREVPAGE BEFORE CHANGING CURRPAGE VARIABLE
     prevPage = currPage;
 

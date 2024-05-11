@@ -19,7 +19,7 @@ const summaryContent = [
     },
     {
         "name": "CS POETRY",
-        "description": "Branding and website solution built in Next.js for a professional writer looking to enhance their online presence.",
+        "description": "Branding and website built in Next.js for a professional writer looking to enhance their online presence.",
         "image1": "media/portfolio_images/poetrySite.png",
         "image2": "media/portfolio_logos/more.png",
         "image3": "",
@@ -27,13 +27,13 @@ const summaryContent = [
         "linkText": "visit site"
     },
     {
-        "name": "TUTORKAI",
-        "description": "Full-stack prototype I built for an education startup, combining sleek frontend design with secure login functionality using Airtable's API.",
-        "image1": "media/portfolio_images/tutorkai2.png",
-        "image2": "media/portfolio_logos/tutorKai.png",
+        "name": "THE WAITING PLACE",
+        "description": "3D experience developed in Unity and modelled in Blender, inspired by the surrealist work of Dr. Seuss.",
+        "image1": "media/portfolio_images/waiting_place.jpeg",
+        "image2": "media/portfolio_logos/more.png",
         "image3": "",
-        "link": "https://github.com/jack-pittman/tutor-kai",
-        "linkText": "open in github" 
+        "link": "https://drive.google.com/drive/u/3/search?q=type:video",
+        "linkText": "watch demo" 
     },
 ]
 //
