@@ -88,7 +88,9 @@ function showItem(index) {
         currMenuItem = document.getElementById(currPage);
 
         //CHANGE CLASSES
-        prevMenuItem.className = "";
+        if (prevMenuItem) {
+            prevMenuItem.className = "";
+        }
         currMenuItem.className = "currPage";
 
         // REPLACE WITH NEW CONTENT

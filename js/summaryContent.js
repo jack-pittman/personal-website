@@ -18,8 +18,8 @@ const summaryContent = [
         "linkText": "open in github"
     },
     {
-        "name": "GIBDO",
-        "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
+        "name": "BILL WIZARD",
+        "description": "Internal tool built for a mid-sized software company to 'wrangle' and mine billing data.",
         "image1": "media/portfolio_images/callbird5.png",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",

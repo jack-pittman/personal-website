@@ -255,18 +255,19 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-
     }
     #prev {
         margin-right: 20px;
+        color: #ab9171;
     }
     #next {
         margin-left: 20px;
+        color: #ab9171;
     }
     #slideNumber {
-        color: var(--shadow-brown);
         font-size: 30px; 
         font-weight: bold;
+        color: #ab9171;
     }
     .portfolio-frame {
         flex-direction: column;
