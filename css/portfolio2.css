@@ -258,10 +258,10 @@
 
     }
     #prev {
-        margin-right: 100px;
+        margin-right: 50px;
     }
     #next {
-        margin-left: 100px;
+        margin-left: 50px;
     }
     #slideNumber {
         color: var(--shadow-brown);
