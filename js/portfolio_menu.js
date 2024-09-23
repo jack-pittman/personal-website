@@ -8,28 +8,40 @@ var currPage = 'SYMPTOMATIC';
 // global index variable
 var currIndex = 0;
 // RECORD LENGTH OF ARRAY
-var arrayLength = 4;
+var arrayLength = 6;
+
+var slideNumber = document.getElementById("slideNumber");
 
 function showNextItem() {
     // if we've reached the end of the array, go to the beginning
     if (currIndex == arrayLength - 1) {
         currIndex = 0; 
+        slideNumber.innerText = currIndex + 1 + '/6';
         showItem(0);
+        console.log("penultimate slide");
     }
+    // if (currIndex == 0) {
+    //     showItem(1);   
+    //     slideNumber.innerText = 2 + '/6';
+    // }
     // otherwise go to the next item
     else {
         showItem(currIndex + 1);
+        slideNumber.innerText = currIndex + 1 + '/6';
     }
 }
 
 function showPrevItem() {
+    
     // if we've reached the BEGINNING of the array, go to the END
     if (currIndex == 0) {
         currIndex = arrayLength-1; 
+        slideNumber.innerText = currIndex + 1 + '/6';
         showItem(arrayLength-1);
     }
     // otherwise go to the next item
     else {
+        slideNumber.innerText = currIndex + '/6';
         showItem(currIndex - 1);
     }
 }
@@ -37,7 +49,7 @@ function showPrevItem() {
 function showItem(index) {
     // SET NEW INDEX
     currIndex = index;
-    console.log(currIndex);
+    console.log("Current Index: " + currIndex);
 
     // RETRIEVE ELEMENTS FROM PORTFOLIO PAGE
     var heroImage = document.getElementById("heroImage");
@@ -61,6 +73,8 @@ function showItem(index) {
         // Toggle the 'slide-in' class for the animation after the delay
         contentColumn.classList.toggle("slideIn");
         iconLogo.classList.toggle("slideIn");
+    }, 200); 
+    setTimeout(function() {
 
         //RETRIEVE PREVPAGE BEFORE CHANGING CURRPAGE VARIABLE
         prevPage = currPage;
@@ -86,7 +100,7 @@ function showItem(index) {
 
         iconLogo.src = summaryContent[index].image2;
         iconCaption.innerHTML = summaryContent[index].name;
-    }, 200); 
+    }, 100); 
 }
 
 // handleMenuClick();
