@@ -51,11 +51,16 @@ function showItem(index) {
     // GET DATA FROM JSON FILE USING INDEX
     //console.log(summaryContent);
 
-    // RESET CLASS NAME FOR CONTENT COLUMN 
+    // RESET CLASS NAME FOR CONTENT COLUMN
     var contentColumn = document.querySelector(".content-column");
-    
 
+    if (contentColumn) {
+        // Remove the class name
+        contentColumn.classList.remove("content-column");
 
+        // Add the class name back
+        contentColumn.classList.add("content-column");
+    }
 
     //RESET CLASSNAME FOR CONTENT COLUMN
 
