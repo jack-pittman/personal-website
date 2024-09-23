@@ -48,47 +48,45 @@ function showItem(index) {
     var iconLogo = document.getElementById("iconLogo");
     var iconCaption = document.getElementById("iconCaption");
 
-    // GET DATA FROM JSON FILE USING INDEX
-    //console.log(summaryContent);
-
     // RESET CLASS NAME FOR CONTENT COLUMN
     var contentColumn = document.querySelector(".content-column");
 
-    if (contentColumn) {
-        // Remove the class name
-        contentColumn.classList.remove("content-column");
 
-        // Add the class name back
-        contentColumn.classList.add("content-column");
-    }
+    // Toggle the 'slide-in' class for the animation
+    contentColumn.classList.toggle("slideIn");
+    iconLogo.classList.toggle("slideIn");
 
-    //RESET CLASSNAME FOR CONTENT COLUMN
 
-    //RETRIEVE PREVPAGE BEFORE CHANGING CURRPAGE VARIABLE
-    prevPage = currPage;
+    setTimeout(function() {
+        // Toggle the 'slide-in' class for the animation after the delay
+        contentColumn.classList.toggle("slideIn");
+        iconLogo.classList.toggle("slideIn");
 
-    //SAVE CURRPAGE STATE IN VARIABLE
-    currPage = summaryContent[index].name; //title attribute in JSON should be the same as the id of the text you clicked on
-    console.log(currPage);
+        //RETRIEVE PREVPAGE BEFORE CHANGING CURRPAGE VARIABLE
+        prevPage = currPage;
 
-    //RETRIEVE PREVPAGE AND CURRPAGE OBJECTS
-    prevMenuItem = document.getElementById(prevPage);
-    currMenuItem = document.getElementById(currPage);
+        //SAVE CURRPAGE STATE IN VARIABLE
+        currPage = summaryContent[index].name; //title attribute in JSON should be the same as the id of the text you clicked on
+        console.log(currPage);
 
-    //CHANGE CLASSES
-    prevMenuItem.className = "";
-    currMenuItem.className = "currPage";
+        //RETRIEVE PREVPAGE AND CURRPAGE OBJECTS
+        prevMenuItem = document.getElementById(prevPage);
+        currMenuItem = document.getElementById(currPage);
 
-    // REPLACE WITH NEW CONTENT
-    heroImage.src = summaryContent[index].image1; 
+        //CHANGE CLASSES
+        prevMenuItem.className = "";
+        currMenuItem.className = "currPage";
 
-    textDescription.innerHTML = summaryContent[index].description; 
-    link.href = summaryContent[index].link; 
-    linkText.innerHTML = summaryContent[index].linkText;
+        // REPLACE WITH NEW CONTENT
+        heroImage.src = summaryContent[index].image1; 
 
-    iconLogo.src = summaryContent[index].image2;
-    iconCaption.innerHTML = summaryContent[index].name;
+        textDescription.innerHTML = summaryContent[index].description; 
+        link.href = summaryContent[index].link; 
+        linkText.innerHTML = summaryContent[index].linkText;
 
+        iconLogo.src = summaryContent[index].image2;
+        iconCaption.innerHTML = summaryContent[index].name;
+    }, 200); 
 }
 
 // handleMenuClick();

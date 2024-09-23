@@ -100,6 +100,7 @@
     margin-left: 20px;
 
     animation: slideIn 0.9s ease-in-out forwards;
+    cursor: pointer; 
 }
 .menu-bar p:hover {
     color: var(--vintage-cream);
@@ -133,9 +134,16 @@
 
 }
 .content-column {
+    opacity: 1; 
+    transform: translateY(0);
+    transition: opacity 0.2s ease-in, transform 0.2s ease-in; 
 
-    animation: slideIn 0.6s ease-in-out forwards;
+}
 
+.content-column.slideIn {
+    /* animation: slideIn 2s ease-in-out forwards; */
+    opacity: 0.5;
+    transform: translateY(1%);
 }
 .content-column h1 {
     font-family: 'Montserrat';
@@ -221,6 +229,16 @@
 
     animation: slideIn2 0.6s ease-in-out forwards;
 
+}
+#iconLogo {
+    opacity: 1; 
+    transform: translateY(0);
+    transition: opacity 0.2s ease-in, transform 0.2s ease-in; 
+}
+#iconLogo.slideIn {
+    /* animation: slideIn 2s ease-in-out forwards; */
+    opacity: 0.5;
+    transform: translateY(1%);
 }
 .arrows {
     display: none; 
