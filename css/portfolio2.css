@@ -304,9 +304,10 @@
 
 
     }
-    .content-column {
-        flex-basis: 80%;
-        margin-top: 0px;
+    .content-column, #content-column {
+        /* flex-basis: 80%; */
+        margin-top: 10px;
+        /* margin-bottom: 0px;  */
     }
     .right-gutter {
         display: none;
