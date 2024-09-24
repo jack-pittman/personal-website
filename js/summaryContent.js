@@ -18,26 +18,26 @@ const summaryContent = [
         "linkText": "open in github"
     },
     {
-        "name": "BILL WIZARD",
-        "description": "Internal tool built for a mid-sized software company to 'wrangle' and mine billing data.",
+        "name": "FUT GUESSER",
+        "description": "The Ultimate FIFA Guessing Game! Can you guess the player before your hints run out?",
         "image1": "media/portfolio_images/callbird5.png",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
-        "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",
+        "link": "https://jack-pittman.github.io/fifa_guesser/",
         "linkText": "open in github"
     },
     {
-        "name": "PIGGUS",
-        "description": "Internal user analytics tool I built as a software engineer intern at Callbird.",
+        "name": "PORTAL CATS",
+        "description": "Cute, casual game for long-distance couples.",
         "image1": "media/portfolio_images/callbird5.png",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
         "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",
-        "linkText": "open in github"
+        "linkText": "play now"
     },
     {
         "name": "CS POETRY",
-        "description": "Branding and website built in Next.js for a professional writer looking to enhance their online presence.",
+        "description": "Branding and website prototype built in Next.js for a professional writer looking to enhance their online presence.",
         "image1": "media/portfolio_images/poetrySite.png",
         "image2": "media/portfolio_logos/more.png",
         "image3": "",
