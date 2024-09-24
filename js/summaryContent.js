@@ -20,20 +20,20 @@ const summaryContent = [
     {
         "name": "FUT GUESSER",
         "description": "The Ultimate FIFA Guessing Game! Can you guess the player before your hints run out?",
-        "image1": "media/portfolio_images/callbird5.png",
+        "image1": "media/portfolio_images/fut_guesser.png",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
         "link": "https://jack-pittman.github.io/fifa_guesser/",
-        "linkText": "open in github"
+        "linkText": "play now"
     },
     {
         "name": "PORTAL CATS",
         "description": "Cute, casual game for long-distance couples.",
-        "image1": "media/portfolio_images/callbird5.png",
+        "image1": "media/portfolio_images/pixel_cat.gif",
         "image2": "media/portfolio_logos/callbird.png",
         "image3": "",
-        "link": "https://github.com/jack-pittman/user_analytics/blob/main/README.md",
-        "linkText": "play now"
+        "link": "",
+        "linkText": "coming soon"
     },
     {
         "name": "CS POETRY",
